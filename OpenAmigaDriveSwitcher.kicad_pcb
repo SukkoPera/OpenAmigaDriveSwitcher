@@ -3,9 +3,9 @@
   (general
     (links 59)
     (no_connects 0)
-    (area 134.62 96.36 178.03 170.086001)
+    (area 140.386999 102.032999 165.683001 154.507001)
     (thickness 1.6)
-    (drawings 23)
+    (drawings 24)
     (tracks 165)
     (zones 0)
     (modules 7)
@@ -792,6 +792,9 @@
     )
   )
 
+  (gr_text V1 (at 164.084 104.013 90) (layer B.SilkS) (tstamp 5B329B4A)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_text github.com/SukkoPera/OpenAmigaDriveSwitcher (at 151.13 132.842 90) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
