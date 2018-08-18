@@ -1,47 +1,13 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:EVEN_CIA_CHIP
-LIBS:EVEN_CIA_SOCKET
+EESchema Schematic File Version 4
 LIBS:OpenAmigaDriveSwitcher-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "OpenAmigaDriveSwitcher"
-Date "2018-06-26"
-Rev "1"
+Date "2018-08-18"
+Rev "2"
 Comp "SukkoPera"
 Comment1 ""
 Comment2 ""
@@ -49,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L EVEN_CIA_CHIP U8
+L EVEN_CIA_CHIP:EVEN_CIA_CHIP U8
 U 1 1 5B3150AF
 P 3350 3800
 F 0 "U8" H 2975 2575 50  0000 C CNN
@@ -60,7 +26,7 @@ F 3 "DOCUMENTATION" H 3350 3800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L EVEN_CIA_SOCKET CONN1
+L EVEN_CIA_SOCKET:EVEN_CIA_SOCKET CONN1
 U 1 1 5B3150E2
 P 7775 3800
 F 0 "CONN1" H 8075 2600 50  0000 C CNN
@@ -71,7 +37,7 @@ F 3 "DOCUMENTATION" H 7775 3800 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 74LS157 U1
+L OpenAmigaDriveSwitcher-rescue:74LS157 U1
 U 1 1 5B315560
 P 5775 6800
 F 0 "U1" H 6150 7475 50  0000 C CNN
@@ -84,7 +50,7 @@ $EndComp
 NoConn ~ 6525 6800
 NoConn ~ 6525 7050
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 5B3157DD
 P 4450 7500
 F 0 "#PWR01" H 4450 7250 50  0001 C CNN
@@ -95,7 +61,7 @@ F 3 "" H 4450 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR02
+L power:VCC #PWR02
 U 1 1 5B3158BB
 P 4325 2575
 F 0 "#PWR02" H 4325 2425 50  0001 C CNN
@@ -106,9 +72,9 @@ F 3 "" H 4325 2575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 4750 7025 4750
+	4100 4750 4325 4750
 Wire Wire Line
-	4100 2850 7025 2850
+	4100 2850 4325 2850
 Wire Wire Line
 	4100 2950 7025 2950
 Wire Wire Line
@@ -142,14 +108,14 @@ Wire Wire Line
 Wire Wire Line
 	4100 4650 7025 4650
 Wire Wire Line
-	4000 7350 5025 7350
+	4000 7350 4075 7350
 Wire Wire Line
 	4450 7350 4450 7500
 Wire Wire Line
 	4325 2575 4325 2850
 Connection ~ 4325 2850
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 5B315A06
 P 4325 4925
 F 0 "#PWR03" H 4325 4675 50  0001 C CNN
@@ -165,21 +131,7 @@ Connection ~ 4325 4750
 Wire Wire Line
 	4100 3550 4750 3550
 Wire Wire Line
-	4750 3550 4750 6600
-Wire Wire Line
-	4750 6250 5025 6250
-Wire Wire Line
-	4750 6600 5025 6600
-Connection ~ 4750 6250
-Wire Wire Line
 	4100 3450 4650 3450
-Wire Wire Line
-	4650 3450 4650 6500
-Wire Wire Line
-	4650 6350 5025 6350
-Wire Wire Line
-	4650 6500 5025 6500
-Connection ~ 4650 6350
 Wire Wire Line
 	6525 6300 6700 6300
 Wire Wire Line
@@ -393,7 +345,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 4250 2600 4250
 $Comp
-L Conn_01x03 J1
+L OpenAmigaDriveSwitcher-rescue:Conn_01x03 J1
 U 1 1 5B317465
 P 3800 7250
 F 0 "J1" H 3800 7450 50  0000 C CNN
@@ -404,14 +356,14 @@ F 3 "" H 3800 7250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4000 7250 5025 7250
+	4000 7250 4175 7250
 Connection ~ 4450 7350
 Wire Wire Line
-	4000 7150 4450 7150
+	4000 7150 4275 7150
 Wire Wire Line
 	4450 7150 4450 6975
 $Comp
-L VCC #PWR04
+L power:VCC #PWR04
 U 1 1 5B3177E7
 P 4450 6975
 F 0 "#PWR04" H 4450 6825 50  0001 C CNN
@@ -422,7 +374,7 @@ F 3 "" H 4450 6975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L OpenAmigaDriveSwitcher-rescue:C C1
 U 1 1 5B317A3C
 P 3175 6750
 F 0 "C1" H 3200 6850 50  0000 L CNN
@@ -433,7 +385,7 @@ F 3 "" H 3175 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR05
+L power:VCC #PWR05
 U 1 1 5B317BA8
 P 3175 6475
 F 0 "#PWR05" H 3175 6325 50  0001 C CNN
@@ -444,7 +396,7 @@ F 3 "" H 3175 6475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 5B317BC2
 P 3175 7050
 F 0 "#PWR06" H 3175 6800 50  0001 C CNN
@@ -459,7 +411,7 @@ Wire Wire Line
 Wire Wire Line
 	3175 6600 3175 6475
 $Comp
-L Conn_01x01 J99
+L OpenAmigaDriveSwitcher-rescue:Conn_01x01 J99
 U 1 1 5B317D78
 P 11025 6250
 F 0 "J99" H 11025 6350 50  0000 C CNN
@@ -491,7 +443,7 @@ Wire Wire Line
 	4650 6750 4650 7350
 Connection ~ 4650 7350
 $Comp
-L Conn_01x03 J2
+L OpenAmigaDriveSwitcher-rescue:Conn_01x03 J2
 U 1 1 5B327943
 P 3800 6625
 F 0 "J2" H 3800 6825 50  0000 C CNN
@@ -516,4 +468,42 @@ Wire Wire Line
 Wire Wire Line
 	4275 6525 4275 7150
 Connection ~ 4275 7150
+Wire Wire Line
+	4325 2850 7025 2850
+Wire Wire Line
+	4325 4750 7025 4750
+Wire Wire Line
+	4450 7350 4650 7350
+Wire Wire Line
+	4950 7350 5025 7350
+Wire Wire Line
+	4850 7350 4950 7350
+Wire Wire Line
+	4750 7350 4850 7350
+Wire Wire Line
+	4650 7350 4750 7350
+Wire Wire Line
+	4075 7350 4450 7350
+Wire Wire Line
+	4175 7250 5025 7250
+Wire Wire Line
+	4275 7150 4450 7150
+Wire Wire Line
+	4650 6600 5025 6600
+Wire Wire Line
+	4750 6500 5025 6500
+Wire Wire Line
+	4650 3450 4650 6250
+Wire Wire Line
+	4750 3550 4750 6350
+Wire Wire Line
+	5025 6350 4750 6350
+Connection ~ 4750 6350
+Wire Wire Line
+	4750 6350 4750 6500
+Wire Wire Line
+	5025 6250 4650 6250
+Connection ~ 4650 6250
+Wire Wire Line
+	4650 6250 4650 6600
 $EndSCHEMATC

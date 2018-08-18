@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name OpenAmigaDriveSwitcher-rescue)(type Legacy)(uri ${KIPRJMOD}/OpenAmigaDriveSwitcher-rescue.lib)(options "")(descr ""))
+  (lib (name EVEN_CIA_CHIP)(type Legacy)(uri ${KIPRJMOD}/libs/EVEN_CIA_CHIP.lib)(options "")(descr ""))
+  (lib (name EVEN_CIA_SOCKET)(type Legacy)(uri ${KIPRJMOD}/libs/EVEN_CIA_SOCKET.lib)(options "")(descr ""))
+)
