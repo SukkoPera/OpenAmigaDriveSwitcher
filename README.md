@@ -4,7 +4,7 @@ OpenAmigaDriveSwitcher is an Open Hardware adapter that can make the first exter
 ![Board](https://raw.githubusercontent.com/SukkoPera/OpenAmigaDriveSwitcher/master/doc/render-top.png)
 
 ### Summary
-OpenAmigaDriveSwitcher turns out really handy for people using a Gotek floppy drive emulator who don't want to mount it internally. In fact, this requires some case modding, both for for fitting the drive and for making it useable, as having a display on the side of the Amiga is quite uncomfortable. Connecting the Gotek externally will not work out of the box for most games as they assume they are running on *DF0:*, which was the only bootable drive back in AmigaOS 1.x times.
+OpenAmigaDriveSwitcher turns out really handy for people using a Gotek floppy drive emulator who don't want to mount it internally. In fact, this requires some case modding, both for fitting the drive and for making it useable, as having a display on the side of the Amiga is quite uncomfortable. Connecting the Gotek externally will not work out of the box for most games as they assume they are running on *DF0:*, which was the only bootable drive back in AmigaOS 1.x times.
 
 Keeping a Gotek drive external also allows it to be used with different computers.
 
