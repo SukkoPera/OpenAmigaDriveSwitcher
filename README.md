@@ -1,5 +1,5 @@
 # OpenAmigaDriveSwitcher
-OpenAmigaDriveSwitcher is an Open Hardware adapter that can make the first external drive (*DF1:*) on an Amiga 500/500+ appear in place of the internal drive (*DF0:*). It also works on an Amiga 2000, however *DF1:* is still an internal drive on this computer.
+OpenAmigaDriveSwitcher is an Open Hardware adapter that can make the first external floppy disk drive (*DF1:*) on an Amiga 500/500+ appear in place of the internal drive (*DF0:*). It also works on an Amiga 2000, however *DF1:* is still an internal drive on this computer.
 
 ![Board](https://raw.githubusercontent.com/SukkoPera/OpenAmigaDriveSwitcher/master/doc/render-top.png)
 
@@ -56,5 +56,5 @@ If you need help or have questions, you can join [the official Telegram group](h
 
 
 ### Thanks
-- ...
+- The fundamental method to swap the drives was found [in this thread](http://eab.abime.net/showthread.php?t=89581) by user *Lurch_AU* of the EAB forum.
 
