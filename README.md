@@ -28,9 +28,9 @@ To control OpenAmigaDriveSwitcher you have several choices. The simplest solutio
 
 But the real strength of OpenAmigaDriveSwitcher is that it can be driven with a logic signal, since it uses a 74157 to switch the required lines. This means you can avoid drilling a hole in your precious case and rather use some electronic means to generate the switch signal.
 
-For instance, the signal can come from an [OpenAmigaMouseTrigger](https://github.com/SukkoPera/OpenAmigaMouseTrigger) detecting mouse presses when the Amiga is powered on: you just turn on your Amiga while holding LMB and DF1: becomes DF0:.
+For instance, the signal can come from an [OpenAmigaMouseTrigger](https://github.com/SukkoPera/OpenAmigaMouseTrigger) detecting mouse presses when the Amiga is powered on: you just turn on your Amiga while holding LMB and *DF1:* becomes *DF0:*.
 
-Another possibility is to wire a microcontroller to the keyboard lines and detect a particular keypress, such as the reset combo. A simple sketch to be loaded on an Arduino for this purpose is provided: you keep the reset combo pressed for two seconds and *DF1:* becomes *DF0:*. You don't even need to power off your Amiga!
+Another possibility is to wire a microcontroller to the keyboard lines and detect a particular keypress, such as the reset combo. A simple sketch to be loaded on an Arduino for this purpose is provided: you keep the reset combo pressed for two seconds and *DF1:* becomes *DF0:*, you don't even need to power off your Amiga!
 
 I'm sure you can come up with more ideas :).
 
