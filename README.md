@@ -52,7 +52,7 @@ Also, if you still have to register to that site, [you can use this link](https:
 Again, if you want to use another manufacturer, feel free to, don't feel obligated :).
 
 ### Get Help
-If you need help or have questions, you can join [the official Telegram group](https://t.me/joinchat/HUHdWBC9J9JnYIrvTYfZmg).
+If you need help or have any questions, you can join [the official Telegram group](https://t.me/joinchat/HUHdWBC9J9JnYIrvTYfZmg).
 
 ### Thanks
 - The fundamental method to swap the drives was learnt from [this thread](http://eab.abime.net/showthread.php?t=89581) by user *Lurch_AU* of the EAB forum.
