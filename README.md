@@ -35,7 +35,19 @@ Another possibility is to wire a microcontroller to the keyboard lines and detec
 I'm sure you can come up with more ideas :).
 
 ### License
-OpenAmigaDriveSwitcher is Open Hardware. If you make any modifications to the board, please contribute them back.
+The OpenAmigaDriveSwitcher documentation, including the design itself, is copyright &copy; SukkoPera 2018.
+
+It is Open Hardware and is licensed under the [CERN OHL v. 1.2](http://ohwr.org/cernohl).
+
+You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable conditions.
+
+A copy of the full license is included in file [LICENSE.pdf]. In order to properly deal with its terms, please see [LICENSE_HOWTO.pdf].
+
+The contact points for information about manufactured Products (see section 4.2) are listed in [PRODUCT.TXT].
+
+Any modifications made by Licenseea (see section 3.4.b) shall be recorded in [CHANGES.TXT].
+
+The Documentation Location of the original project is https://github.com/SukkoPera/OpenAmigaDriveSwitcher/.
 
 ### Disclaimer
 OpenAmigaDriveSwitcher is provided to you *as is* and without any express or implied warranties whatsoever with respect to its functionality, operability or use, including, without limitation, any implied warranties of merchantability, fitness for a particular purpose or infringement. We expressly disclaim any liability whatsoever for any direct, indirect, consequential, incidental or special damages, including, without limitation, lost revenues, lost profits, losses resulting from business interruption or loss of data, regardless of the form of action or legal theory under which the liability may be asserted, even if advised of the possibility or likelihood of such damages.
