@@ -11,4 +11,4 @@ Following is an excerpt from Section 4 of the [license](LICENSE.pdf) - **Manufac
 This file contains a list of the contact point wishing to receive information about manufactured Products.
 
 ### (Name) (E-Mail or other contact details)
-SukkoPera <software@sukkology.net>
+- SukkoPera <software@sukkology.net>
