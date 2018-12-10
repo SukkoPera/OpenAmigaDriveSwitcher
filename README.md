@@ -43,9 +43,9 @@ You may redistribute and modify this documentation under the terms of the CERN O
 
 A copy of the full license is included in file [LICENSE.pdf]. In order to properly deal with its terms, please see [LICENSE_HOWTO.pdf].
 
-The contact points for information about manufactured Products (see section 4.2) are listed in [PRODUCT.TXT].
+The contact points for information about manufactured Products (see section 4.2) are listed in [PRODUCT.md].
 
-Any modifications made by Licenseea (see section 3.4.b) shall be recorded in [CHANGES.TXT].
+Any modifications made by Licensees (see section 3.4.b) shall be recorded in [CHANGES.md].
 
 The Documentation Location of the original project is https://github.com/SukkoPera/OpenAmigaDriveSwitcher/.
 
