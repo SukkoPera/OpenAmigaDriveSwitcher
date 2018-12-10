@@ -6,10 +6,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "OpenAmigaDriveSwitcher"
-Date "2018-09-13"
-Rev "2git"
+Date "2018-12-11"
+Rev "3"
 Comp "SukkoPera"
-Comment1 ""
+Comment1 "Licensed under CERN OHL v.1.2"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -151,17 +151,6 @@ Wire Wire Line
 	10355 6110 10355 6260
 Wire Wire Line
 	10355 5810 10355 5685
-$Comp
-L OpenAmigaDriveSwitcher-rescue:Conn_01x01 J99
-U 1 1 5B317D78
-P 11025 6250
-F 0 "J99" H 11025 6350 50  0000 C CNN
-F 1 "OSHW_LOGO" H 11025 6150 50  0000 C CNN
-F 2 "w_logo:Logo_copper_OSHW_6x6mm" H 11025 6250 50  0001 C CNN
-F 3 "" H 11025 6250 50  0001 C CNN
-	1    11025 6250
-	0    1    1    0   
-$EndComp
 NoConn ~ 11025 6050
 Wire Wire Line
 	5180 6520 4950 6520
@@ -734,12 +723,23 @@ Wire Notes Line
 	1710 7580 730  7580
 Wire Notes Line
 	730  7580 730  6860
-Wire Bus Line
-	6550 2040 6550 3150
+$Comp
+L conn:CONN_1 P99
+U 1 1 5C101D03
+P 11025 6200
+F 0 "P99" H 10890 6290 40  0000 L CNN
+F 1 "OSHW_LOGO" H 10960 6130 30  0000 C CNN
+F 2 "Symbol:OSHW-Logo_5.7x6mm_Copper" H 11025 6200 50  0001 C CNN
+F 3 "" H 11025 6200 50  0001 C CNN
+	1    11025 6200
+	0    1    1    0   
+$EndComp
 Wire Bus Line
 	4740 2040 4740 3350
 Wire Bus Line
-	2170 2040 2170 4650
+	6550 2040 6550 3150
 Wire Bus Line
 	8940 2040 8940 4850
+Wire Bus Line
+	2170 2040 2170 4650
 $EndSCHEMATC
